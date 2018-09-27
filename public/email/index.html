@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Bus</title>
+</head>
+<body>
+
+<div>
+    <h1>Welcome to Photo Bus</h1>
+</div>
+
+<div>
+    <h3>Links</h3>
+    <ul>
+        <li>
+            <a href="/">Main</a>
+        </li>
+        <li>
+            <a href="/email">Email Sign Up</a>
+        </li>
+    </ul>
+</div>
+
+<h1>Sign up below to follow the bus</h1>
+
+<form action="/email/store.php" method="post" >
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="'email" name="email">
+        <br>
+        <br>
+    </div>
+    <div>
+        <label for="state">State</label>
+        <select name="state" id="state">
+            <option>AL</option>
+            <option>TN</option>
+        </select>
+        <br>
+        <br>
+    </div>
+    <div>
+        <label for="city">City</label>
+        <input type="text" id="city" name="city">
+        <br>
+        <br>
+    </div>
+    <div>
+        <input type="submit" value="Sign Up">
+        <br>
+        <br>
+    </div>
+</form>
+
+</body>
+</html>
