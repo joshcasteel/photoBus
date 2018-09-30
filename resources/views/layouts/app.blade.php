@@ -52,7 +52,7 @@
                 font-size: 84px;
             }
             .sub-title {
-                font-size: 48px;
+                font-size: 36px;
             }
 
             .links > a {
@@ -74,7 +74,7 @@
             }
 
             .color-main {
-                background-color: #1d68a7;
+
             }
         </style>
 </head>
