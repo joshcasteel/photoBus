@@ -8,6 +8,6 @@
                Wander Love Bus
             </div>
             <div class="">
-                
+
             </div>
 @endsection
