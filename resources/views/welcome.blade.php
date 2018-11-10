@@ -5,9 +5,9 @@
 
 @section('content')
             <div class="title m-b-md">
-                Ruby Photo Bus
+               Wander Love Bus
             </div>
             <div class="">
-                Slogan goes here
+                
             </div>
 @endsection
