@@ -18,8 +18,8 @@
         <div class="content">
             <div class="links top-right">
                 <a href="/">Main</a>
-                <a target="_blank" href="//www.instagram.com">Instagram</a>
-                <a href="/events">Events</a>
+                <a target="_blank" href="//www.instagram.com/wanderlovebus">Instagram</a>
+                <a target="_blank" href="//www.facebook.com/wanderlovebus">Facebook</a>
             </div>
 
             @yield('content')
