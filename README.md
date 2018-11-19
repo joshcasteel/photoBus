@@ -2,7 +2,11 @@
 Website for our photo bus
 
 
-## Heroku
+## Site
 
-- url: https://photo-bus.herokuapp.com/
-- 
+- url: http://www.wanderlovebus.com/
+
+### Simalar sites
+
+- https://www.socalwanderbus.com/
+- https://www.thewanderbusstory.com/
