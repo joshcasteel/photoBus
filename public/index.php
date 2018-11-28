@@ -1,60 +1,42 @@
-<?php
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Wander Love Bus</title>
 
-/**
- * Laravel - A PHP Framework For Web Artisans
- *
- * @package  Laravel
- * @author   Taylor Otwell <taylor@laravel.com>
- */
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-define('LARAVEL_START', microtime(true));
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
 
-/*
-|--------------------------------------------------------------------------
-| Register The Auto Loader
-|--------------------------------------------------------------------------
-|
-| Composer provides a convenient, automatically generated class loader for
-| our application. We just need to utilize it! We'll simply require it
-| into the script here so that we don't have to worry about manual
-| loading any of our classes later on. It feels great to relax.
-|
-*/
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
 
-require __DIR__.'/../vendor/autoload.php';
+<div class="container">
+    <div class="flex-center position-ref full-height">
+        <div class="content">
+            <div class="links top-right">
+                <a href="/">Main</a>
+                <a target="_blank" href="//www.instagram.com/wanderlovebus">Instagram</a>
+                <a target="_blank" href="//www.facebook.com/wanderlovebus">Facebook</a>
+            </div>
 
-/*
-|--------------------------------------------------------------------------
-| Turn On The Lights
-|--------------------------------------------------------------------------
-|
-| We need to illuminate PHP development, so let us turn on the lights.
-| This bootstraps the framework and gets it ready for use, then it
-| will load up this application so that we can run it and send
-| the responses back to the browser and delight our users.
-|
-*/
+            <div class="title m-b-md">
+                Wander Love Bus
+            </div>
+            <div class="">
 
-$app = require_once __DIR__.'/../bootstrap/app.php';
-
-/*
-|--------------------------------------------------------------------------
-| Run The Application
-|--------------------------------------------------------------------------
-|
-| Once we have the application, we can handle the incoming request
-| through the kernel, and send the associated response back to
-| the client's browser allowing them to enjoy the creative
-| and wonderful application we have prepared for them.
-|
-*/
-
-$kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
-
-$response = $kernel->handle(
-    $request = Illuminate\Http\Request::capture()
-);
-
-$response->send();
-
-$kernel->terminate($request, $response);
+            </div>
+        </div>
+    </div>
+    <div class="flex-center position-ref full-height color-main">
+        <div class="content footer bottom">
+            <div class="sub-title m-b-md">
+                Ruby Strong
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
