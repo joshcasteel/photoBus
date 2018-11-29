@@ -2,9 +2,7 @@
     "name": "bus",
     "license": "MIT",
     "type": "project",
-    "require": {
-
-    },
+    "require": {},
     "autoload": {
         "classmap": [],
         "psr-4": {}
