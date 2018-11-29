@@ -7,6 +7,12 @@
         "classmap": [],
         "psr-4": {}
     },
+    "scripts": {
+        "compile": [
+            "npm run prod",
+            "gulp"
+        ]
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
