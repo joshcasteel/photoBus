@@ -1,0 +1,12 @@
+{
+    "name": "bus",
+    "license": "MIT",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "classmap": [],
+        "psr-4": {}
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
